@@ -32,21 +32,36 @@ CREATE TABLE IF NOT EXISTS Student(
 
 -- Recipe ----------------------------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS Ingredient(
-    name            VARCHAR(32) NOT NULL PRIMARY KEY
-);
-
 CREATE TABLE IF NOT EXISTS Recipe(
     recipeID        INT AUTO_INCREMENT PRIMARY KEY,
     name            VARCHAR(255),
     pubDate         DATE,
     category        VARCHAR(255),
     cuisine         VARCHAR(255),
-    numberServed    INT
+    numberServed    INT,
+    instructions    VARCHAR(1024),
+    specialTools    VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS Ingredient(
+    name            VARCHAR(32) NOT NULL PRIMARY KEY
 );
 
 CREATE TABLE IF NOT EXISTS RecipeIngredient(
     recipeID        INT NOT NULL,
     ingredientName  VARCHAR(32) NOT NULL,
-                    PRIMARY KEY(recipeID, ingredientName)
+                    PRIMARY KEY(recipeID, ingredientName),
+    units           VARCHAR(32)
+);
+
+CREATE TABLE IF NOT EXISTS RecipeChef(
+    recipeID        INT NOT NULL,
+    chefID          INT NOT NULL,
+                    PRIMARY KEY(recipeID, chefID)
+);
+
+CREATE TABLE IF NOT EXISTS RecipeStudent(
+    recipeID        INT NOT NULL,
+    studentID       INT NOT NULL,
+                    PRIMARY KEY(recipeID, studentID)
 );
