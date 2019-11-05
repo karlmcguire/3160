@@ -68,3 +68,88 @@ INSERT INTO `Recipe` (`recipeID`,`name`,`pubDate`,`category`,`cuisine`,`numberSe
     (18,"Fusce mollis. Duis","2020-02-11 01:27:26","mi. Aliquam","eget,",92,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet","sollicitudin adipiscing ligula. Aenean gravida nunc"),
     (19,"In condimentum. Donec","2019-09-06 08:50:55","nascetur ridiculus","ultrices",56,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.","et ultrices posuere cubilia Curae; Phasellus ornare. Fusce"),
     (20,"varius orci, in","2020-10-03 05:23:39","diam. Duis","mollis.",6,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam","velit. Quisque");
+
+INSERT INTO `Ingredient` (`name`) VALUES 
+    ("nunc sit amet"),
+    ("luctus ut, pellentesque"),
+    ("lobortis quis, pede."),
+    ("Curabitur consequat, lectus"),
+    ("aliquam arcu. Aliquam"),
+    ("et, rutrum non,"),
+    ("Nullam feugiat placerat"),
+    ("Quisque ac libero"),
+    ("pellentesque massa lobortis"),
+    ("massa. Quisque porttitor"),
+    ("arcu et pede."),
+    ("id magna et"),
+    ("libero nec ligula"),
+    ("vulputate, nisi sem"),
+    ("Quisque fringilla euismod"),
+    ("lorem semper auctor."),
+    ("Nunc lectus pede,"),
+    ("vitae, orci. Phasellus"),
+    ("aliquet lobortis, nisi"),
+    ("massa. Vestibulum accumsan"),
+    ("Integer sem elit,"),
+    ("eu erat semper"),
+    ("ligula. Aenean euismod"),
+    ("eu lacus. Quisque"),
+    ("accumsan laoreet ipsum."),
+    ("Quisque tincidunt pede"),
+    ("dictum. Phasellus in"),
+    ("eu, ultrices sit"),
+    ("vitae diam. Proin"),
+    ("cursus, diam at");
+
+INSERT INTO `RecipeIngredient` (`recipeID`, `ingredientName`, `units`) VALUES
+    (1, "nunc sit amet", "0.5 grams"),
+    (2, "id magna et", "0.5 grams"),
+    (3, "arcu et pede.", "1 grams"),
+    (4, "eu erat semper", "2 grams"),
+    (5, "cursus, diam at", "3 oz");
+
+INSERT INTO `RecipeChef` (`recipeID`, `chefID`) VALUES
+    (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5),
+    (6, 6),
+    (7, 7),
+    (8, 8),
+    (9, 9),
+    (10, 10);
+
+INSERT INTO `RecipeStudent` (`recipeID`, `studentID`) VALUES
+    (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5),
+    (6, 6),
+    (7, 7),
+    (8, 8),
+    (9, 9),
+    (10, 10);
+
+INSERT INTO `Award` (`recipeID`,`awardName`,`year`) VALUES 
+    (1,"amet ornare lectus justo",1997),
+    (2,"ante dictum cursus. Nunc",1954),
+    (3,"egestas lacinia. Sed congue,",1980),
+    (4,"nunc nulla vulputate dui,",1952),
+    (5,"ac sem ut dolor",2018),
+    (6,"Aliquam gravida mauris ut",1970),
+    (7,"mollis nec, cursus a,",1977),
+    (8,"dictum augue malesuada malesuada.",1990),
+    (9,"iaculis, lacus pede sagittis",1984),
+    (10,"Etiam imperdiet dictum magna.",1990),
+    (11,"consequat auctor, nunc nulla",1955),
+    (12,"Donec nibh enim, gravida",1950),
+    (13,"lobortis risus. In mi",1975),
+    (14,"mollis. Duis sit amet",2019),
+    (15,"posuere vulputate, lacus. Cras",1971),
+    (16,"ullamcorper viverra. Maecenas iaculis",1976),
+    (17,"pede. Praesent eu dui.",1993),
+    (18,"convallis convallis dolor. Quisque",1984),
+    (19,"facilisis. Suspendisse commodo tincidunt",1966),
+    (20,"eleifend, nunc risus varius",1976);
