@@ -11,16 +11,16 @@ CREATE TABLE IF NOT EXISTS Person(
     lastName        VARCHAR(255),
     streetAddress   VARCHAR(255),
     city            VARCHAR(255),
-    state           VARCHAR(2),
-    zip             INT,
-    phone           INT,
+    state           VARCHAR(255),
+    zip             VARCHAR(32),
+    phone           VARCHAR(32),
     email           VARCHAR(255)
 );
 
 CREATE TABLE IF NOT EXISTS Chef(
     chefID          INT AUTO_INCREMENT PRIMARY KEY,
     specialty       VARCHAR(255),
-    salary          INT
+    salary          VARCHAR(32)
 ) SELECT * FROM Person;
 
 CREATE TABLE IF NOT EXISTS Student(
