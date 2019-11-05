@@ -65,3 +65,13 @@ CREATE TABLE IF NOT EXISTS RecipeStudent(
     studentID       INT NOT NULL,
                     PRIMARY KEY(recipeID, studentID)
 );
+
+
+-- Awards ----------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS Award(
+    recipeID        INT NOT NULL,
+    awardName       VARCHAR(255),
+                    PRIMARY KEY(recipeID, awardName),
+    year            INT
+);
