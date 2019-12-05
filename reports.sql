@@ -55,3 +55,21 @@ SELECT A.name, GROUP_CONCAT(B.ingredientName, B.units)
     GROUP BY A.recipeID;
 
 -- 9. list each recipe name with its instructions
+SELECT name, instructions FROM Recipe;
+
+-- 10. list each ecookbook with name and number of recipes in it
+SELECT A.name, COUNT(B.recipeID) AS recipeCount
+    FROM Cookbook AS A
+    LEFT JOIN CookbookRecipe AS B ON
+        B.cookbookID = A.cookbookID
+    GROUP BY A.name;
+
+-- 11. list all recipes that have received awards including name of award
+--     using natural join
+SELECT recipeID, name, awardName FROM Recipe NATURAL JOIN Award;
+
+--     using inner join
+SELECT A.recipeID, A.name, B.awardName
+    FROM Recipe AS A
+    INNER JOIN Award AS B ON
+        B.recipeID = A.recipeID;

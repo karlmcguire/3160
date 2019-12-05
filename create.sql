@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS Ingredient(
 
 CREATE TABLE IF NOT EXISTS RecipeIngredient(
     recipeID        INT NOT NULL,
-    ingredientName  VARCHAR(32) NOT NULL,
+    ingredientName  VARCHAR(100) NOT NULL,
                     PRIMARY KEY(recipeID, ingredientName),
     units           VARCHAR(32)
 );
@@ -64,6 +64,20 @@ CREATE TABLE IF NOT EXISTS RecipeStudent(
     recipeID        INT NOT NULL,
     studentID       INT NOT NULL,
                     PRIMARY KEY(recipeID, studentID)
+);
+
+
+-- Cookbook --------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS Cookbook(
+    cookbookID      INT NOT NULL,
+    name            VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS CookbookRecipe(
+    cookbookID      INT NOT NULL,
+    recipeID        INT NOT NULL,
+                    PRIMARY KEY(cookbookID, recipeID)
 );
 
 

@@ -167,6 +167,22 @@ INSERT INTO `RecipeStudent` (`recipeID`, `studentID`) VALUES
     (19, 9),
     (20, 10);
 
+INSERT INTO `Cookbook` (`cookbookID`,`name`) VALUES 
+    (1,"erat. Etiam vestibulum massa rutrum magna."),
+    (2,"ornare placerat,"),
+    (3,"tortor, dictum eu, acerat eget, venenatis a, magna. Lorem ipsum"),
+    (4,"turpis. Nulla aliquet. Proin"),
+    (5,"mi tempor lorem, eget mollis lectus pede"),
+    (6,"habitant morbi tristique senectus et netus et malesuada fames ac"),
+    (7,"ante, iaculis nec, eleifend non,"),
+    (8,"a,"),
+    (9,"Sed eu nibh vulputate mauris"),
+    (10,"ipsum ac mi");
+
+INSERT INTO `CookbookRecipe` (`cookbookID`,`recipeID`) VALUES (1,9),(2,12),(3,3),(4,15),(5,6),(6,11),(7,12),(8,7),(9,10),(10,16);
+INSERT INTO `CookbookRecipe` (`cookbookID`,`recipeID`) VALUES (1,15),(2,4),(3,1),(4,9),(5,4),(6,1),(7,17),(8,13),(9,11),(10,14);
+INSERT INTO `CookbookRecipe` (`cookbookID`,`recipeID`) VALUES (1,11),(2,15),(3,16),(4,3),(5,12),(6,17),(7,6),(8,17),(9,18),(10,8);
+
 INSERT INTO `Award` (`recipeID`,`awardName`,`year`) VALUES 
     (1,"amet ornare lectus justo",1997),
     (2,"ante dictum cursus. Nunc",1954),
