@@ -49,25 +49,25 @@ INSERT INTO `Student` (`personID`,`firstName`,`lastName`,`streetAddress`,`city`,
 
 INSERT INTO `Recipe` (`recipeID`,`name`,`pubDate`,`category`,`cuisine`,`numberServed`,`instructions`,`specialTools`) VALUES 
     (1,"arcu iaculis enim,","2020-07-04 23:57:43","eu odio","vitae",15,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum","vel arcu. Curabitur"),
-    (2,"gravida. Aliquam tincidunt,","2019-10-27 00:34:06","faucibus id,","magnis",58,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget","amet, consectetuer"),
+    (2,"gravida. Aliquam tincidunt,", NULL,"faucibus id,","magnis",58,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget","amet, consectetuer"),
     (3,"Ut tincidunt vehicula","2020-09-14 03:17:27","nisi. Aenean","vestibulum,",1,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor.","nunc interdum feugiat. Sed"),
-    (4,"tincidunt adipiscing. Mauris","2019-04-17 02:03:19","elementum, lorem","nisi.",30,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper.","augue scelerisque mollis. Phasellus libero mauris, aliquam"),
+    (4,"tincidunt adipiscing. Mauris", NULL,"elementum, lorem","nisi.",30,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper.","augue scelerisque mollis. Phasellus libero mauris, aliquam"),
     (5,"aliquam iaculis, lacus","2019-09-15 06:06:30","ornare. Fusce","metus.",92,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget","urna et arcu imperdiet"),
     (6,"massa lobortis ultrices.","2018-11-18 17:52:58","Lorem ipsum","non",49,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris,","lorem, sit amet ultricies sem magna nec quam. Curabitur"),
-    (7,"ipsum primis in","2019-05-21 06:48:58","ac facilisis","lobortis.",64,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum.","molestie. Sed id risus quis diam luctus"),
+    (7,"ipsum primis in", NULL, "ac facilisis","lobortis.",64,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum.","molestie. Sed id risus quis diam luctus"),
     (8,"purus. Maecenas libero","2019-05-03 08:00:04","sit amet,","urna,",32,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci.","neque sed dictum"),
     (9,"a mi fringilla","2019-12-14 02:01:17","ipsum. Suspendisse","sit",26,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula","Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc"),
     (10,"purus ac tellus.","2019-08-06 13:05:19","orci, consectetuer","tortor.",21,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,","ultrices iaculis odio. Nam interdum"),
-    (11,"id, blandit at,","2020-10-17 06:43:14","vitae dolor.","ante.",53,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede.","vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque"),
+    (11,"id, blandit at,", NULL,"vitae dolor.","ante.",53,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede.","vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque"),
     (12,"justo. Proin non","2019-11-11 11:26:19","Duis sit","lorem",53,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut","sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum"),
     (13,"dui. Cum sociis","2019-02-17 13:20:05","malesuada fames","bibendum.",3,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci","tellus. Aenean egestas hendrerit"),
     (14,"sapien imperdiet ornare.","2019-05-12 03:37:55","pede. Suspendisse","sapien,",31,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt","feugiat placerat velit. Quisque varius. Nam porttitor scelerisque"),
     (15,"lacinia vitae, sodales","2019-08-18 12:55:27","placerat eget,","Suspendisse",90,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt","Aliquam gravida mauris ut mi. Duis"),
-    (16,"malesuada ut, sem.","2020-03-02 13:22:47","eu, accumsan","ut,",17,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut","eu arcu. Morbi sit"),
+    (16,"malesuada ut, sem.", NULL,"eu, accumsan","ut,",17,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut","eu arcu. Morbi sit"),
     (17,"Duis risus odio,","2019-12-08 03:16:37","vestibulum. Mauris","luctus",9,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant","tortor. Integer aliquam adipiscing lacus. Ut"),
     (18,"Fusce mollis. Duis","2020-02-11 01:27:26","mi. Aliquam","eget,",92,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet","sollicitudin adipiscing ligula. Aenean gravida nunc"),
-    (19,"In condimentum. Donec","2019-09-06 08:50:55","nascetur ridiculus","ultrices",56,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.","et ultrices posuere cubilia Curae; Phasellus ornare. Fusce"),
-    (20,"varius orci, in","2020-10-03 05:23:39","diam. Duis","mollis.",6,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam","velit. Quisque");
+    (19,"In condimentum. Donec", NULL,"nascetur ridiculus","ultrices",56,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.","et ultrices posuere cubilia Curae; Phasellus ornare. Fusce"),
+    (20,"varius orci, in", NULL,"diam. Duis","mollis.",6,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam","velit. Quisque");
 
 INSERT INTO `Ingredient` (`name`) VALUES 
     ("nunc sit amet"),
@@ -101,12 +101,26 @@ INSERT INTO `Ingredient` (`name`) VALUES
     ("vitae diam. Proin"),
     ("cursus, diam at");
 
-INSERT INTO `RecipeIngredient` (`recipeID`, `ingredientName`, `units`) VALUES
-    (1, "nunc sit amet", "0.5 grams"),
-    (2, "id magna et", "0.5 grams"),
-    (3, "arcu et pede.", "1 grams"),
-    (4, "eu erat semper", "2 grams"),
-    (5, "cursus, diam at", "3 oz");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (10,"Cras eget nisi dictum","9 grams"),(12,"Lorem ipsum dolor sit amet,","3 grams"),(19,"odio. Phasellus","5 grams"),(20,"Duis dignissim tempor arcu. Vestibulum","5 grams"),(17,"in consectetuer ipsum nunc","2 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (4,"ante lectus convallis est, vitae","7 grams"),(17,"ac sem ut dolor dapibus","1 grams"),(17,"ipsum ac mi eleifend egestas.","4 grams"),(18,"nisi a odio","6 grams"),(3,"eget,","9 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (8,"Donec","2 grams"),(2,"Integer in magna. Phasellus","2 grams"),(18,"Donec dignissim","7 grams"),(13,"Mauris eu turpis. Nulla aliquet.","7 grams"),(12,"vel est tempor bibendum.","6 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (13,"molestie pharetra nibh. Aliquam","6 grams"),(10,"pharetra. Quisque ac libero","4 grams"),(19,"Sed","3 grams"),(12,"vitae,","1 grams"),(2,"tellus sem mollis dui, in","5 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (12,"mauris erat","10 grams"),(5,"Donec non justo. Proin","7 grams"),(5,"non dui nec urna","9 grams"),(19,"risus. Morbi metus.","1 grams"),(13,"Donec fringilla. Donec feugiat","8 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (17,"ut, nulla. Cras eu","3 grams"),(16,"enim consequat purus.","6 grams"),(11,"feugiat nec, diam. Duis","6 grams"),(15,"massa. Integer vitae nibh. Donec","4 grams"),(4,"vestibulum massa rutrum","9 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (5,"aliquam","4 grams"),(20,"rutrum eu, ultrices sit","4 grams"),(9,"purus, in molestie","8 grams"),(17,"nostra, per inceptos hymenaeos.","4 grams"),(4,"in faucibus orci luctus et","1 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (13,"neque. Morbi quis urna. Nunc","10 grams"),(3,"dolor. Nulla semper tellus id","6 grams"),(9,"parturient montes, nascetur","10 grams"),(5,"sem elit, pharetra ut, pharetra","3 grams"),(18,"mattis","3 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (10,"vulputate, lacus. Cras interdum.","9 grams"),(12,"lorem,","7 grams"),(5,"lectus ante dictum mi, ac","4 grams"),(15,"Aenean euismod mauris","6 grams"),(11,"fringilla","8 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (8,"tincidunt dui","9 grams"),(18,"non","7 grams"),(3,"elit,","2 grams"),(10,"mauris erat eget ipsum. Suspendisse","1 grams"),(15,"consequat, lectus","9 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (8,"amet diam eu dolor","6 grams"),(18,"in sodales","4 grams"),(19,"Integer aliquam adipiscing","1 grams"),(20,"ac turpis egestas. Aliquam","2 grams"),(10,"natoque","3 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (7,"Sed diam","8 grams"),(17,"orci. Donec","6 grams"),(6,"non leo. Vivamus","8 grams"),(15,"nec luctus felis purus ac","9 grams"),(8,"auctor, velit eget laoreet","4 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (8,"Nam tempor diam dictum sapien.","10 grams"),(7,"rutrum","3 grams"),(1,"sed libero.","9 grams"),(4,"magna. Cras convallis","8 grams"),(14,"ornare placerat, orci","10 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (3,"amet","10 grams"),(5,"sem","7 grams"),(19,"luctus et ultrices","4 grams"),(20,"auctor odio a","2 grams"),(3,"eu nulla at","4 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (7,"Proin sed turpis nec mauris","7 grams"),(13,"ac risus.","9 grams"),(9,"Mauris ut","2 grams"),(18,"sollicitudin adipiscing ligula. Aenean","2 grams"),(17,"ut","2 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (16,"Aenean","9 grams"),(13,"Duis","10 grams"),(5,"Quisque imperdiet, erat nonummy ultricies","6 grams"),(7,"eu arcu. Morbi sit","10 grams"),(17,"Fusce aliquet magna","2 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (10,"morbi tristique senectus et netus","8 grams"),(2,"orci luctus","6 grams"),(2,"ut odio vel est","7 grams"),(9,"arcu. Sed et libero. Proin","3 grams"),(11,"erat eget","10 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (15,"nisi dictum augue malesuada","10 grams"),(13,"diam","1 grams"),(16,"consectetuer","3 grams"),(16,"pharetra, felis","2 grams"),(10,"sagittis. Nullam vitae diam.","10 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (14,"enim. Curabitur massa. Vestibulum accumsan","9 grams"),(6,"Nulla","7 grams"),(10,"Integer id magna et ipsum","7 grams"),(14,"nec, diam. Duis mi enim,","5 grams"),(16,"metus. Vivamus","3 grams");
+INSERT INTO `RecipeIngredient` (`recipeID`,`ingredientName`,`units`) VALUES (12,"vel quam dignissim","1 grams"),(10,"id","1 grams"),(18,"Sed nec metus","1 grams"),(5,"velit. Cras lorem lorem, luctus","4 grams"),(16,"quam a felis","8 grams");
 
 INSERT INTO `RecipeChef` (`recipeID`, `chefID`) VALUES
     (1, 1),
@@ -118,7 +132,18 @@ INSERT INTO `RecipeChef` (`recipeID`, `chefID`) VALUES
     (7, 7),
     (8, 8),
     (9, 9),
-    (10, 10);
+    (10, 10),
+    (11, 1),
+    (12, 2),
+    (13, 3),
+    (14, 4),
+    (15, 5),
+    (16, 6),
+    (17, 7),
+    (18, 8),
+    (19, 9),
+    (20, 10);
+
 
 INSERT INTO `RecipeStudent` (`recipeID`, `studentID`) VALUES
     (1, 1),
@@ -130,7 +155,17 @@ INSERT INTO `RecipeStudent` (`recipeID`, `studentID`) VALUES
     (7, 7),
     (8, 8),
     (9, 9),
-    (10, 10);
+    (10, 10),
+    (11, 1),
+    (12, 2),
+    (13, 3),
+    (14, 4),
+    (15, 5),
+    (16, 6),
+    (17, 7),
+    (18, 8),
+    (19, 9),
+    (20, 10);
 
 INSERT INTO `Award` (`recipeID`,`awardName`,`year`) VALUES 
     (1,"amet ornare lectus justo",1997),
